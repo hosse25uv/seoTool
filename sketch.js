@@ -1,5 +1,3 @@
-
-
 var output;
 var submit;
 var metadesc;
@@ -29,7 +27,7 @@ function newText() {
   var md = metadesc.value();
   var mt = maintxt.value();
   
-  createP("Your Title is " + s.length + " character long. Please use 10 up to 60 characters.");
-  createP("Meta Description is " + md.length + " character long. Best length is 70 to 160 characters.");
-  createP("Main Text is " + mt.length + " character long. Please enter at least 1500 characters.");
+  createP("<em>Your Title is </em>" + s.length + "<em> character long. Please use 10 up to 60 characters.</em>");
+  createP("<em>Meta Description is </em>" + md.length + "<em> character long. Best length is 70 to 160 characters.</em>");
+  createP("<em>Main Text is </em>" + mt.length + "<em> character long. Please enter at least 1500 characters.</em>");
 }
