@@ -11,178 +11,178 @@
     <link rel="icon" href="https://res.cloudinary.com/visitltu/image/upload/v1528310423/Ignas-Tarabilda-Favicon.png">
     <link rel="apple-touch-icon" href="https://res.cloudinary.com/visitltu/image/upload/v1530992103/MyBlog/apple-touch-icon.png">
     <title>SEO Doctor</title>
+    <style>
+
+      *,
+      *:before,
+      *:after{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: content-box;
+      }
+      
+      :root{  
+        --ff-family: Arial, sans-serif;
+        --fs-xl: 2rem;
+        --fs-l: 1.6rem;
+        --fs-md: 1rem;
+        --fs-s: 0.8rem;
+      
+        --color-sky: rgb(111, 185, 255);
+        --color-golden: #e6aa3b;
+        --color-gold: #e6aa3b80;
+        --color-bg: #fff;
+        --color-primary: #881c46;
+        --color-secondary: #20126F;
+        --color-content: #000;
+        --color-ascent: #524f4f;
+        --color-alt: #f7f8ff;
+      
+        --color-silver: rgb(206, 206, 206);
+        --color-purple: #813648;
+        --color-darker: #00000063;
+        --color-dark: #000000be;
+        --color-green: rgb(45, 119, 61);
+        --color-winter: #0f2838bb;
+        --color-light: #727272cc;
+        
+        --max-width: 100%;
+      }
+      
+      body{
+        margin: 0;
+        padding: 0;
+        font: normal 18px/1.6 Arial;
+        background: url(img/Clouds.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      
+      h1 a {
+        color: var(--color-silver);
+      }
+      
+      h1 { font-weight: 300; margin: 0 auto; font-size: var(--fs-xl); color: var(--color-dark);}
+      
+      h1 i {
+        color: darkred;
+      }
+      
+      h2{
+        font-size: var(--fs-l);
+      }
+      h3{
+        font-size: var(--fs-md);
+      }
+      a{
+        color: brown;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      .h2-title {
+        font-size: var(--fs-l);
+        margin: 0 0 3vh 0;
+        font-weight: 500;
+      }
+      .h3-title {
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0 0 3vh 0;
+      }
+      
+      #main, .wrapper, header, input {
+          max-width: var(--max-width);
+          margin: 20px auto;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+      
+      p em, p, span {
+        text-align: center;
+      }
+      
+      
+      .header{
+        color: var(--color-bg);
+        background: var(--color-ascent);
+        padding: 0.5em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: 0 0 2em 0;
+      }
+      
+      
+      
+      .button {
+          background: darkslategray;
+          padding: 10px;
+          max-width: 80%;
+          text-align: center;
+          margin: 0 auto;
+          border: solid 2px lightblue;
+          border-radius: none;
+          color: white;
+          font-weight: 500;
+          line-height: 25px;
+          cursor: pointer;
+      }
+      
+      button[type="button"] { 
+          background: darkcyan;
+          padding: 10px;
+          max-width: 100%;
+          text-align: center;
+          margin: 0 auto;
+          border-radius: 50%;
+          height: auto;
+          color: white;
+          font-weight: 500;
+          cursor: pointer;
+       }
+      
+       button[type="button"]:focus  {
+          outline: 0;
+          outline-style:none;
+          outline-width:0;
+          background-color: lightslategray;
+       }
+      
+       button[type="button"]:hover  {
+          background-color: lightslategray;
+       }
+      
+      .button:hover {
+          background: var(--color-ascent);
+          cursor: pointer;
+      }
+      
+      
+        textarea { border: 2px solid #a0b3b0; width: 60%; height: auto;  padding: 15px 15px 0 15px; background: var(--color-bg);}
+      @media all and (max-width: 480px) { 
+        input, button { font-size: 24px; }
+      }
+      
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: rgba(0, 0, 0, 0.76);
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: rgba(0, 0, 0, 0.76);
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: rgba(0, 0, 0, 0.76);
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color: rgba(0, 0, 0, 0.76);
+      }
+      </style>
 </head>
-<style>
-
-*,
-*:before,
-*:after{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: content-box;
-}
-
-:root{  
-  --ff-family: Arial, sans-serif;
-  --fs-xl: 2rem;
-  --fs-l: 1.6rem;
-  --fs-md: 1rem;
-  --fs-s: 0.8rem;
-
-  --color-sky: rgb(111, 185, 255);
-  --color-golden: #e6aa3b;
-  --color-gold: #e6aa3b80;
-  --color-bg: #fff;
-  --color-primary: #881c46;
-  --color-secondary: #20126F;
-  --color-content: #000;
-  --color-ascent: #524f4f;
-  --color-alt: #f7f8ff;
-
-  --color-silver: rgb(206, 206, 206);
-  --color-purple: #813648;
-  --color-darker: #00000063;
-  --color-dark: #000000be;
-  --color-green: rgb(45, 119, 61);
-  --color-winter: #0f2838bb;
-  --color-light: #727272cc;
-  
-  --max-width: 100%;
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  font: normal 18px/1.6 Arial;
-  background: url(img/Clouds.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-h1 a {
-  color: var(--color-silver);
-}
-
-h1 { font-weight: 300; margin: 0 auto; font-size: var(--fs-xl); color: var(--color-dark);}
-
-h1 i {
-  color: darkred;
-}
-
-h2{
-  font-size: var(--fs-l);
-}
-h3{
-  font-size: var(--fs-md);
-}
-a{
-  color: brown;
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: none;
-}
-.h2-title {
-  font-size: var(--fs-l);
-  margin: 0 0 3vh 0;
-  font-weight: 500;
-}
-.h3-title {
-  font-size: 22px;
-  font-weight: 500;
-  margin: 0 0 3vh 0;
-}
-
-#main, .wrapper, header, input {
-    max-width: var(--max-width);
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-p em, p, span {
-  text-align: center;
-}
-
-
-.header{
-  color: var(--color-bg);
-  background: var(--color-ascent);
-  padding: 0.5em 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  margin: 0 0 2em 0;
-}
-
-
-
-.button {
-    background: darkslategray;
-    padding: 10px;
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    border: solid 2px lightblue;
-    border-radius: none;
-    color: white;
-    font-weight: 500;
-    line-height: 25px;
-    cursor: pointer;
-}
-
-button[type="button"] { 
-    background: darkcyan;
-    padding: 10px;
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 50%;
-    height: auto;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
- }
-
- button[type="button"]:focus  {
-    outline: 0;
-    outline-style:none;
-    outline-width:0;
-    background-color: lightslategray;
- }
-
- button[type="button"]:hover  {
-    background-color: lightslategray;
- }
-
-.button:hover {
-    background: var(--color-ascent);
-    cursor: pointer;
-}
-
-
-  textarea { border: 2px solid #a0b3b0; width: 60%; height: auto;  padding: 15px 15px 0 15px; background: var(--color-bg);}
-@media all and (max-width: 480px) { 
-  input, button { font-size: 24px; }
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgba(0, 0, 0, 0.76);
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: rgba(0, 0, 0, 0.76);
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: rgba(0, 0, 0, 0.76);
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: rgba(0, 0, 0, 0.76);
-}
-</style>
 <body>
   <div id="main" class="wrapper">
   <header><br>
