@@ -27,7 +27,7 @@ function newText() {
   var md = metadesc.value();
   var mt = maintxt.value();
   
-  createP("Your Title is " + s.length + " character long. Please use 10 up to 60 characters.");
-  createP("Meta Description is " + md.length + " character long. Best length is 70 to 160 characters.");
-  createP("Main Text is " + mt.length + " character long. Please enter at least 1500 characters.");
+  createP("Your title is " + s.length + " character long. Consider using 10 to 60 characters.");
+  createP("Meta description is " + md.length + " character long. The best length is 70 to 160 characters.");
+  createP("Main text is " + mt.length + " character long. It should contain at least 1500 characters.");
 }
