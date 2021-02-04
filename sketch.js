@@ -1,7 +1,7 @@
-var output;
-var submit;
-var metadesc;
-var maintxt;
+let output;
+let submit;
+let metadesc;
+let maintxt;
 
 
 function setup() {
@@ -23,11 +23,11 @@ function setup() {
 }
 */
 function newText() {
-  var s = seotitle.value();
-  var md = metadesc.value();
-  var mt = maintxt.value();
+  let s = seotitle.value();
+  let md = metadesc.value();
+  let mt = maintxt.value();
   
-  createP("Your title is " + s.length + " character long. Consider using 10 to 60 characters.");
-  createP("Meta description is " + md.length + " character long. The best length is 70 to 160 characters.");
-  createP("Main text is " + mt.length + " character long. It should contain at least 1500 characters.");
+  createP(`Your title is ${s.length} character long. Consider using 10 to 60 characters.`);
+  createP(`Meta description is ${md.length} character long. The best length is 70 to 160 characters.`);
+  createP(`Main text is ${mt.length} character long. It should contain at least 1500 characters.`);
 }
